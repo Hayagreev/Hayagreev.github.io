@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,7 +30,7 @@ import flutter_club from "./company/flutter_club.png";
 import launchcoders from "./company/launchcoders.png";
 
 import birdclassifier from "./birdclassifier.png";
-import jobit from "./jobit.png";
+import image_edit_app from "./image_edit_app.png";
 import sortingvisualizer from "./sortingvisualizer.png";
 
 export {
@@ -62,6 +62,6 @@ export {
   flutter_club,
   launchcoders,
   birdclassifier,
-  jobit,
+  image_edit_app,
   sortingvisualizer,
 };

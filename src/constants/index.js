@@ -22,7 +22,7 @@ import {
   flutter_club,
   launchcoders,
   birdclassifier,
-  jobit,
+  image_edit_app,
   sortingvisualizer,
   threejs,
 } from "../assets";
@@ -222,21 +222,17 @@ const projects = [
     source_code_link: "https://github.com/Hayagreev/BirdClassifier",
   },
   {
-    name: "Conjoint Analysis App",
+    name: "Image Editting App",
     description:
-      "iOS app where users can rank various versions of drones, and walk through the calculations required for Conjoint Analysis.",
+      "iOS app where users can edit pictures, and save those editted images to their gallery.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/Hayagreev/ConjointAnalysis",
+    image: image_edit_app,
+    source_code_link: "https://github.com/purdueflutter/image_editing_app",
   },
   {
     name: "Sorting Alg. Visualizer",
