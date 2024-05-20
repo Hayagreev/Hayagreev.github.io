@@ -8,20 +8,22 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
+  bash,
+  c_lang,
+  firebase,
+  java,
+  kubernetes,
+  python,
+  sql,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  cisco,
+  shoreline,
+  flutter_club,
+  launchcoders,
+  birdclassifier,
   jobit,
-  tripguide,
+  sortingvisualizer,
   threejs,
 } from "../assets";
 
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps",
     icon: mobile,
   },
   {
@@ -54,16 +56,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Student",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
   {
     name: "CSS 3",
     icon: css,
@@ -80,91 +82,92 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "bash",
+    icon: bash,
+  },
+  {
+    name: "c_lang",
+    icon: c_lang,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "sql",
+    icon: sql,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Incoming Software Engineering Intern",
+    company_name: "Cisco",
+    icon: cisco,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024 – Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineering Intern",
+    company_name: "Shoreline.io",
+    icon: shoreline,
+    iconBg: "#142044",
+    date: "May 2023 – July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Added 30+ metrics to monitor Shoreline backend, making it easier for customers  to identify & debug problems",
+      "Implemented Open Telemetry standards. Configured Grafana Cloud, and Shoreline Notebooks for visualizing trends",
+      "Deployed my code to production in \$1M+ contracts with customers like Confluent",
+      "Worked with Go, Elixir, Python, Kubernetes (daemonsets, statefulsets, configmaps, service accounts), & Docker",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer",
+    company_name: "Flutter Development Club @ Purdue University",
+    icon: flutter_club,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 – Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created an app to take and edit photos, and save those edited photos to the photo gallery",
+      "Features: adding emojis, changing contrast/hue/colorization of images, cropping, rotating, adding/formating text",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Curriculum Director",
+    company_name: "LaunchCoders",
+    icon: launchcoders,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2020 – Nov 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed a team of high schoolers to develop Python/Scratch courses with code snippets for beginners",
+      "Led students through Scratch projects, and taught fundamental programming concepts prior to managing the curriculum",
     ],
   },
 ];
@@ -198,67 +201,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bird Classifier",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "iOS app to allow users to upload images of birds, and obtained detailed information regarding that bird (such as bird species, diet, etc.)",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tensorflow",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: birdclassifier,
+    source_code_link: "https://github.com/Hayagreev/BirdClassifier",
   },
   {
-    name: "Job IT",
+    name: "Conjoint Analysis App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "iOS app where users can rank various versions of drones, and walk through the calculations required for Conjoint Analysis.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
-      },
+        color: "green-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobit,
+    source_code_link: "https://github.com/Hayagreev/ConjointAnalysis",
+  },
+  {
+    name: "Sorting Alg. Visualizer",
+    description:
+      "Web application where users can generate random arrays of different sizes, and visualize various sorting algorithms on these arrays",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      }
+    ],
+    image: sortingvisualizer,
+    source_code_link: "https://github.com/Hayagreev/Sorting-Algorithm-Visualizer",
   },
 ];
 
