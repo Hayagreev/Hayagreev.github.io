@@ -132,7 +132,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2024 – Aug 2024",
     points: [
-      
+      "Added default, standardized location tag to all field programmable device (FPD) traces to automate of tasks",
+      "Exported traces to Splunk, created apps to analyze FPD traces (focusing on latency and memory analysis) saving several hours of manual work per release. Configured streaming of syslogs to Splunk in real time",
+      "Created website to document step-by-step process of analyzing traces with Splunk; shared knowledge through demos",
     ],
   },
   {
